@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name/>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>C/M Assigned Status</name>
+        <onclick>changeState()</onclick>
+        <order>100</order>
+        <script><![CDATA[function changeState(){
+		g_form.setValue("opportunity_status","c_m_assigned");
+
+
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-27 03:44:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8e978b3747010210cffc8f59e16d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>C/M Assigned Status</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pro Bono Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope>
+        <sys_update_name>sys_ui_action_8e978b3747010210cffc8f59e16d43b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-27 03:44:58</sys_updated_on>
+        <table>x_1268707_pro_bono_pro_bono_opportunity</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project Application">10bf8a3547c18210cffc8f59e16d430b</application>
+        <file_path/>
+        <instance_id>bc6d19f31b6ef5d49377eb9b2d4bcbe1</instance_id>
+        <instance_name>dev222287</instance_name>
+        <name>sys_ui_action_8e978b3747010210cffc8f59e16d43b6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;C/M Assigned Status&lt;/name&gt;&lt;onclick&gt;changeState()&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function changeState(){
+		g_form.setValue("opportunity_status","c_m_assigned");
+
+
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-27 03:44:58&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8e978b3747010210cffc8f59e16d43b6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;C/M Assigned Status&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Pro Bono Application" source="x_1268707_pro_bono"&gt;10bf8a3547c18210cffc8f59e16d430b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Pro Bono Application"&gt;10bf8a3547c18210cffc8f59e16d430b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_8e978b3747010210cffc8f59e16d43b6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-27 03:44:58&lt;/sys_updated_on&gt;&lt;table&gt;x_1268707_pro_bono_pro_bono_opportunity&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1177178506</payload_hash>
+        <record_name>C/M Assigned Status</record_name>
+        <reverted_from/>
+        <source>6b09653647c90210cffc8f59e16d43c7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-27 03:44:59</sys_created_on>
+        <sys_id>8bc8cf7747010210cffc8f59e16d439d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e7e02d66d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-27 03:44:59</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>87c8cb37b9010210a29f13f96795fc03</update_guid>
+        <update_guid_history>87c8cb37b9010210a29f13f96795fc03:-1177178506</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-27 03:47:17</sys_created_on>
+        <sys_db_object display_value="sys_ui_action" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>1227d6c5c78045a081bda61772784400</sys_id>
+        <sys_metadata>8e978b3747010210cffc8f59e16d43b6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>C/M Assigned Status</sys_name>
+        <sys_package display_value="Project Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package>
+        <sys_parent display_value="x_1268707_pro_bono_pro_bono_opportunity">f8901af547c18210cffc8f59e16d434a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Project Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope>
+        <sys_scope_delete display_value="">0e7f6d691dc64db9822e0784e9c58da1</sys_scope_delete>
+        <sys_update_name>sys_ui_action_8e978b3747010210cffc8f59e16d43b6</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_8e978b3747010210cffc8f59e16d43b6">8bc8cf7747010210cffc8f59e16d439d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-27 03:47:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

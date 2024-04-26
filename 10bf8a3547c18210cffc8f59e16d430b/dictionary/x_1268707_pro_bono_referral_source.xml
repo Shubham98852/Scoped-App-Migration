@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="42c8699a47010610cffc8f59e16d436a" label="Referral Source" max_length="40" name="x_1268707_pro_bono_referral_source" type="collection">
+        <element label="Number" max_length="32" name="account_number" reference="customer_account" type="reference"/>
+        <element label="Awards/Recognition" max_length="4000" name="awards_recognition" type="glide_list"/>
+        <element label="City" max_length="50" name="city" type="string"/>
+        <element label="Country" max_length="50" name="country" type="string"/>
+        <element label="List of Matters" max_length="4000" name="list_of_matters" reference="x_1268707_pro_bono_foundation_data" reference_qual="type=matter_type^EQ" reference_qual_condition="type=matter_type^EQ" type="glide_list"/>
+        <element label="List of Opportunities" max_length="4000" name="list_of_opportunities" reference="x_1268707_pro_bono_pro_bono_opportunity" type="glide_list"/>
+        <element label="Notes" max_length="1000" name="notes" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Phone" max_length="15" name="phone" type="string"/>
+        <element label="Primary Contact" max_length="32" name="primary_contact" reference="customer_contact" type="reference"/>
+        <element label="Primary Contact Phone Number" max_length="20" name="primary_contact_phone_number" type="string"/>
+        <element label="Primary Contact Title" max_length="25" name="primary_contact_title" type="string"/>
+        <element label="Referral Source Name" max_length="32" name="referral_source_name" reference="x_1268707_pro_bono_foundation_data" reference_qual="type=Referral Source^EQ" reference_qual_condition="type=Referral Source^EQ" type="reference"/>
+        <element label="State/Province" max_length="50" name="state_province" type="string"/>
+        <element label="Street" max_length="500" name="street" type="string"/>
+        <element label="Website" max_length="100" name="website" type="string"/>
+        <element label="Zip/Postal Code" max_length="20" name="zip_postal_code" type="string"/>
+        <index name="index">
+            <element name="account_number"/>
+        </index>
+        <index name="index2">
+            <element name="primary_contact"/>
+        </index>
+        <index name="index3">
+            <element name="referral_source_name"/>
+        </index>
+    </element>
+</database>

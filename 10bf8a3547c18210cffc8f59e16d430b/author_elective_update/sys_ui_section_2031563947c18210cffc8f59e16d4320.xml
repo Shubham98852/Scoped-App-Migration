@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Closure Information" section_id="2031563947c18210cffc8f59e16d4320" sys_domain="global" table="x_1268707_pro_bono_pro_bono_opportunity" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-20 18:34:13</sys_created_on>
+            <sys_id>e831563947c18210cffc8f59e16d4320</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_1268707_pro_bono_pro_bono_opportunity" sys_domain="global" view="Default view">2031563947c18210cffc8f59e16d4320</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-20 18:34:13</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>knowledge</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-20 18:34:13</sys_created_on>
+            <sys_id>e031563947c18210cffc8f59e16d4321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_1268707_pro_bono_pro_bono_opportunity" sys_domain="global" view="Default view">2031563947c18210cffc8f59e16d4320</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-20 18:34:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-20 18:34:13</sys_created_on>
+            <sys_id>e831563947c18210cffc8f59e16d4321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_1268707_pro_bono_pro_bono_opportunity" sys_domain="global" view="Default view">2031563947c18210cffc8f59e16d4320</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-20 18:34:13</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>closed_by</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-20 18:34:13</sys_created_on>
+            <sys_id>e031563947c18210cffc8f59e16d4322</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_1268707_pro_bono_pro_bono_opportunity" sys_domain="global" view="Default view">2031563947c18210cffc8f59e16d4320</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-20 18:34:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>closed_at</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-20 18:34:13</sys_created_on>
+            <sys_id>ec31563947c18210cffc8f59e16d4320</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_1268707_pro_bono_pro_bono_opportunity" sys_domain="global" view="Default view">2031563947c18210cffc8f59e16d4320</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-20 18:34:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-20 18:34:13</sys_created_on>
+            <sys_id>e431563947c18210cffc8f59e16d4321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_1268707_pro_bono_pro_bono_opportunity" sys_domain="global" view="Default view">2031563947c18210cffc8f59e16d4320</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-20 18:34:13</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>close_notes</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-20 18:34:13</sys_created_on>
+            <sys_id>ec31563947c18210cffc8f59e16d4321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_1268707_pro_bono_pro_bono_opportunity" sys_domain="global" view="Default view">2031563947c18210cffc8f59e16d4320</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-20 18:34:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>attached_knowledge</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-20 18:34:13</sys_created_on>
+            <sys_id>e431563947c18210cffc8f59e16d4322</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Attached Knowledge">cfa76e850a0a0b1f01446f67c8538d00</sys_ui_formatter>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_1268707_pro_bono_pro_bono_opportunity" sys_domain="global" view="Default view">2031563947c18210cffc8f59e16d4320</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-20 18:34:13</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Closure Information</caption>
+            <header>false</header>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-20 18:34:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2031563947c18210cffc8f59e16d4320</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1268707_pro_bono_pro_bono_opportunity</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Pro Bono Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pro Bono Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope>
+            <sys_update_name>sys_ui_section_2031563947c18210cffc8f59e16d4320</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-20 18:34:13</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project Application">10bf8a3547c18210cffc8f59e16d430b</application>
+        <file_path/>
+        <instance_id>bc6d19f31b6ef5d49377eb9b2d4bcbe1</instance_id>
+        <instance_name>dev222287</instance_name>
+        <name>sys_ui_section_2031563947c18210cffc8f59e16d4320</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Closure Information" section_id="2031563947c18210cffc8f59e16d4320" sys_domain="global" table="x_1268707_pro_bono_pro_bono_opportunity" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-20 18:34:13</sys_created_on><sys_id>e831563947c18210cffc8f59e16d4320</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_1268707_pro_bono_pro_bono_opportunity" sys_domain="global" view="Default view">2031563947c18210cffc8f59e16d4320</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-20 18:34:13</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>knowledge</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-20 18:34:13</sys_created_on><sys_id>e031563947c18210cffc8f59e16d4321</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_1268707_pro_bono_pro_bono_opportunity" sys_domain="global" view="Default view">2031563947c18210cffc8f59e16d4320</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-20 18:34:13</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-20 18:34:13</sys_created_on><sys_id>e831563947c18210cffc8f59e16d4321</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_1268707_pro_bono_pro_bono_opportunity" sys_domain="global" view="Default view">2031563947c18210cffc8f59e16d4320</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-20 18:34:13</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>closed_by</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-20 18:34:13</sys_created_on><sys_id>e031563947c18210cffc8f59e16d4322</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_1268707_pro_bono_pro_bono_opportunity" sys_domain="global" view="Default view">2031563947c18210cffc8f59e16d4320</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-20 18:34:13</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>closed_at</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-20 18:34:13</sys_created_on><sys_id>ec31563947c18210cffc8f59e16d4320</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_1268707_pro_bono_pro_bono_opportunity" sys_domain="global" view="Default view">2031563947c18210cffc8f59e16d4320</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-20 18:34:13</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-20 18:34:13</sys_created_on><sys_id>e431563947c18210cffc8f59e16d4321</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_1268707_pro_bono_pro_bono_opportunity" sys_domain="global" view="Default view">2031563947c18210cffc8f59e16d4320</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-20 18:34:13</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>close_notes</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-20 18:34:13</sys_created_on><sys_id>ec31563947c18210cffc8f59e16d4321</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_1268707_pro_bono_pro_bono_opportunity" sys_domain="global" view="Default view">2031563947c18210cffc8f59e16d4320</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-20 18:34:13</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>attached_knowledge</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-20 18:34:13</sys_created_on><sys_id>e431563947c18210cffc8f59e16d4322</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Attached Knowledge">cfa76e850a0a0b1f01446f67c8538d00</sys_ui_formatter><sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_1268707_pro_bono_pro_bono_opportunity" sys_domain="global" view="Default view">2031563947c18210cffc8f59e16d4320</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-20 18:34:13</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Closure Information</caption><header>false</header><name>x_1268707_pro_bono_pro_bono_opportunity</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-20 18:34:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2031563947c18210cffc8f59e16d4320</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1268707_pro_bono_pro_bono_opportunity</sys_name><sys_overrides/><sys_package display_value="Pro Bono Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package><sys_policy/><sys_scope display_value="Pro Bono Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope><sys_update_name>sys_ui_section_2031563947c18210cffc8f59e16d4320</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-20 18:34:13</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-2026048560</payload_hash>
+        <record_name>Pro Bono Opportunity</record_name>
+        <reverted_from/>
+        <source>5cbf8ab547c18210cffc8f59e16d43e4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 18:34:13</sys_created_on>
+        <sys_id>6c31563947c18210cffc8f59e16d4324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e5d2473490000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 18:34:13</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>e0315639ffc18210b1700960d51ee924</update_guid>
+        <update_guid_history>e0315639ffc18210b1700960d51ee924:-2026048560</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-09 09:15:46</sys_created_on>
+        <sys_db_object display_value="sys_ui_section" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>0eb7e5622940480f8b29e781dfb250e9</sys_id>
+        <sys_metadata>2031563947c18210cffc8f59e16d4320</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Closure Information</sys_name>
+        <sys_package display_value="Project Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package>
+        <sys_parent display_value="x_1268707_pro_bono_pro_bono_opportunity">f8901af547c18210cffc8f59e16d434a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Project Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope>
+        <sys_scope_delete display_value="">0e7f6d691dc64db9822e0784e9c58da1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_2031563947c18210cffc8f59e16d4320</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_2031563947c18210cffc8f59e16d4320">6c31563947c18210cffc8f59e16d4324</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-09 09:15:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

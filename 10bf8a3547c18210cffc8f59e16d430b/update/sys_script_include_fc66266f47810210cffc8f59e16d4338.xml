@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1268707_pro_bono.addDetailsToOutreach</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>addDetailsToOutreach</name>
+        <script><![CDATA[var addDetailsToOutreach = Class.create();
+addDetailsToOutreach.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    addRecordFunction: function() {
+
+        var sys_ids = this.getParameter("sys_ids");
+        var recordArray = sys_ids.split(",");
+		var oppo_id = gs.getProperty("x_1268707_pro_bono.Store_opportunity_sys_id");
+
+        for (var i = 0; i < recordArray.length; i++) {
+            var timekeeperTable = new GlideRecord("x_1268707_pro_bono_timekeeper_register");
+            timekeeperTable.get(recordArray[i]);
+
+                var table = new GlideRecord("sn_customerservice_related_party");
+				table.addQuery("x_1268707_pro_bono_timekeeper",recordArray[i]);
+				table.addQuery("x_1268707_pro_bono_opportunity",oppo_id);
+				table.query();
+				if(!table.next()){
+                table.initialize();
+                table.x_1268707_pro_bono_timekeeper_name = timekeeperTable.timekeeper_name;
+                table.x_1268707_pro_bono_timekeeper_email = timekeeperTable.timekeeper_email;
+				table.x_1268707_pro_bono_timekeeper=recordArray[i];
+				table.x_1268707_pro_bono_sub_practice=timekeeperTable.timekeeper_sub_practice_group;
+				table.x_1268707_pro_bono_opportunity=oppo_id;
+                table.insert();
+				}
+        
+
+        }
+
+        return oppo_id;
+
+    },
+
+    type: 'addDetailsToOutreach'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-26 06:51:12</sys_created_on>
+        <sys_id>fc66266f47810210cffc8f59e16d4338</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>addDetailsToOutreach</sys_name>
+        <sys_package display_value="Project Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Project Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope>
+        <sys_update_name>sys_script_include_fc66266f47810210cffc8f59e16d4338</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 04:45:51</sys_updated_on>
+    </sys_script_include>
+</record_update>

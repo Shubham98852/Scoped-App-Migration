@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_1268707_pro_bono.ReloadForm</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>ReloadForm</name>
+        <script><![CDATA[var ReloadForm = Class.create();
+ReloadForm.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	reloadFunction:function(){
+
+		var id=this.getParameter("sys_ids");
+		var tablename='x_1268707_pro_bono_pro_bono_opportunity';
+		// var url=gs.getProperty('glide.servlet.uri') +`${tablename}.do?sys_id=${id}`+'&sysparm_record_target=x_1268707_pro_bono_pro_bono_opportunity&sysparm_record_row=1&sysparm_record_rows=8&sysparm_record_list=ORDERBYDESCsys_updated_on';
+		var newUrl=`${tablename}.do?sys_id=${id}`;
+		// var value= gs.generateURL(tablename, id);
+		var requiredLink='x_1268707_pro_bono_pro_bono_opportunity.do?sys_id=0579d0c447550210cffc8f59e16d431e'
+
+		// var redirectLink=
+		// var urls="https://dev222287.service-now.com/x_1268707_pro_bono_pro_bono_opportunity.do?sys_id=0579d0c447550210cffc8f59e16d431e&sysparm_record_target=x_1268707_pro_bono_pro_bono_opportunity&sysparm_record_row=1&sysparm_record_rows=8&sysparm_record_list=ORDERBYDESCsys_updated_on"
+		// gs.setRedirect(newUrl);
+		gs.setRedirect(requiredLink);
+		
+		return newUrl;
+	},
+
+    type: 'ReloadForm'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-28 08:50:45</sys_created_on>
+        <sys_id>7a6ccd9047150210cffc8f59e16d43aa</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>ReloadForm</sys_name>
+        <sys_package display_value="Project Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Project Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope>
+        <sys_update_name>sys_script_include_7a6ccd9047150210cffc8f59e16d43aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-03 04:08:48</sys_updated_on>
+    </sys_script_include>
+</record_update>

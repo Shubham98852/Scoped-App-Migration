@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-03 06:35:27</sys_created_on>
+        <sys_id>10f23b4a47d10210cffc8f59e16d4337</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>customer_contact.x_1268707_pro_bono.probono_extended_admin</sys_name>
+        <sys_package display_value="Project Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope>
+        <sys_security_acl display_value="customer_contact">21e1f34a47d10210cffc8f59e16d43b0</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_10f23b4a47d10210cffc8f59e16d4337</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-03 06:37:25</sys_updated_on>
+        <sys_user_role display_value="x_1268707_pro_bono.probono_extended_admin" name="x_1268707_pro_bono.probono_extended_admin">d2e02ead47950210cffc8f59e16d4387</sys_user_role>
+        <transaction_id>d0f23b8647510210cffc8f59e16d4333</transaction_id>
+    </sys_security_acl_role>
+</record_update>

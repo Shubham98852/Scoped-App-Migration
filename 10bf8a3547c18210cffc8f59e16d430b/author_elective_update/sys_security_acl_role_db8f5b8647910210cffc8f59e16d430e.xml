@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-03 05:10:43</sys_created_on>
+        <sys_id>db8f5b8647910210cffc8f59e16d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1268707_pro_bono_staffing_requirements.snc_internal</sys_name>
+        <sys_package display_value="Pro Bono Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope>
+        <sys_security_acl display_value="x_1268707_pro_bono_staffing_requirements">e59bba3c47154210cffc8f59e16d433f</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_db8f5b8647910210cffc8f59e16d430e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-03 05:10:43</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+        <transaction_id>038fd38a47510210cffc8f59e16d4303</transaction_id>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project Application">10bf8a3547c18210cffc8f59e16d430b</application>
+        <file_path/>
+        <instance_id>bc6d19f31b6ef5d49377eb9b2d4bcbe1</instance_id>
+        <instance_name>dev222287</instance_name>
+        <name>sys_security_acl_role_db8f5b8647910210cffc8f59e16d430e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-03 05:10:43</sys_created_on><sys_id>db8f5b8647910210cffc8f59e16d430e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1268707_pro_bono_staffing_requirements.snc_internal</sys_name><sys_package display_value="Pro Bono Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package><sys_policy/><sys_scope display_value="Pro Bono Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope><sys_security_acl display_value="x_1268707_pro_bono_staffing_requirements">e59bba3c47154210cffc8f59e16d433f</sys_security_acl><sys_update_name>sys_security_acl_role_db8f5b8647910210cffc8f59e16d430e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-03 05:10:43</sys_updated_on><sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role><transaction_id>038fd38a47510210cffc8f59e16d4303</transaction_id></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1752554456</payload_hash>
+        <record_name>x_1268707_pro_bono_staffing_requirements.snc_internal</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 12:50:39</sys_created_on>
+        <sys_id>da62526647590210cffc8f59e16d43a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ea9294b0d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 12:50:39</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>9a625266bd59021039cdec9ed20e98a6</update_guid>
+        <update_guid_history>9a625266bd59021039cdec9ed20e98a6:-1752554456</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1268707_pro_bono_staffing_requirements.snc_internal">9e62526647590210cffc8f59e16d43a8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 12:50:39</sys_created_on>
+        <sys_db_object display_value="sys_security_acl_role" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1bfac33935c24c408cb3b4a926edc400</sys_id>
+        <sys_metadata>db8f5b8647910210cffc8f59e16d430e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1268707_pro_bono_staffing_requirements.snc_internal</sys_name>
+        <sys_package display_value="Project Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package>
+        <sys_parent display_value="x_1268707_pro_bono_staffing_requirements">e59bba3c47154210cffc8f59e16d433f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Project Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope>
+        <sys_scope_delete display_value="">0e7f6d691dc64db9822e0784e9c58da1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_db8f5b8647910210cffc8f59e16d430e</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_db8f5b8647910210cffc8f59e16d430e">da62526647590210cffc8f59e16d43a6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 12:50:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

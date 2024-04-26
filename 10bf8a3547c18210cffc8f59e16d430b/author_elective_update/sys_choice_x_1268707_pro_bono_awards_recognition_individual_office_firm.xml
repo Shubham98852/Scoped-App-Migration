@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="individual_office_firm" table="x_1268707_pro_bono_awards_recognition" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>individual_office_firm</element>
+            <name>x_1268707_pro_bono_awards_recognition</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-22 11:41:15</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>individual_office_firm</sys_name>
+            <sys_package display_value="Project Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope>
+            <sys_update_name>sys_choice_x_1268707_pro_bono_awards_recognition_individual_office_firm</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-22 11:41:15</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>individual_office_firm</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Firm</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_awards_recognition</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-22 11:41:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-22 11:41:46</sys_updated_on>
+            <value>firm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>individual_office_firm</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Individual</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_awards_recognition</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-22 11:41:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-22 11:41:23</sys_updated_on>
+            <value>individual</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>individual_office_firm</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Office</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_awards_recognition</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-22 11:41:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-22 11:41:37</sys_updated_on>
+            <value>office</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="736ebad247850610cffc8f59e16d43c9" label="Awards &amp; Recognition" max_length="40" name="x_1268707_pro_bono_awards_recognition" type="collection">
+        <element label="Awards/Recognition" max_length="32" name="awards_recognition" reference="x_1268707_pro_bono_foundation_data" type="reference"/>
+        <element label="C/M Number" max_length="4000" name="c_m_number" type="glide_list"/>
+        <element label="Date Announced" max_length="40" name="date_announced" type="glide_date_time"/>
+        <element choice="1" label="Individual/Office/Firm" max_length="40" name="individual_office_firm" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Firm" value="firm"/>
+                <element inactive_on_update="false" label="Individual" value="individual"/>
+                <element inactive_on_update="false" label="Office" value="office"/>
+            </choice>
+        </element>
+        <element label="Matter Name" max_length="25" name="matter_name" type="string"/>
+        <element label="Notes" max_length="1000" name="notes" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Organization" max_length="32" name="organization" reference="x_1268707_pro_bono_foundation_data" type="reference"/>
+        <element label="Supporting Material" max_length="1000" name="supporting_material" type="string"/>
+        <element label="Years(s) Awarded" max_length="4000" name="years_s_awarded" type="glide_list"/>
+        <index name="index">
+            <element name="awards_recognition"/>
+        </index>
+        <index name="index2">
+            <element name="organization"/>
+        </index>
+    </element>
+</database>

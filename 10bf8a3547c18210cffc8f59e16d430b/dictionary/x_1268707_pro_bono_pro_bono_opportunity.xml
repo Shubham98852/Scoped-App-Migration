@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="f8901af547c18210cffc8f59e16d434a" extends="sn_customerservice_case" label="Pro Bono Opportunity" max_length="40" name="x_1268707_pro_bono_pro_bono_opportunity" type="collection">
+        <element choice="1" label="Action Needed" max_length="40" name="action_needed" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Client Mgmt Reminder" value="client_mgmt_reminder"/>
+                <element inactive_on_update="false" label="Full Audit" value="full_audit"/>
+                <element inactive_on_update="false" label="None" value="none"/>
+                <element inactive_on_update="false" label="Other" value="other"/>
+            </choice>
+        </element>
+        <element label="Awards/Recognition" max_length="4000" name="awards_recognition" type="glide_list"/>
+        <element label="A Number" max_length="9" name="a_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Client Name" max_length="40" name="client_name" type="string"/>
+        <element label="Client Number" max_length="25" name="client_number" type="string"/>
+        <element label="Client Type" max_length="4000" name="client_type" reference="x_1268707_pro_bono_foundation_data" reference_qual="type=client_type^EQ" reference_qual_condition="type=client_type^EQ" type="glide_list"/>
+        <element label="Conditions Met" max_length="40" name="conditions_met" type="boolean"/>
+        <element label="Corporate collaboration" max_length="4000" name="corporate_collaboration" reference="x_1268707_pro_bono_foundation_data" reference_qual="type=Corporate Collaboration^EQ" reference_qual_condition="type=Corporate Collaboration^EQ" type="glide_list"/>
+        <element label="Country of Origin" max_length="32" name="country_of_origin" reference="x_1268707_pro_bono_foundation_data" reference_qual="type=Country^EQ" reference_qual_condition="type=Country^EQ" type="reference"/>
+        <element label="C/M Number" max_length="50" name="c_m_number" type="string"/>
+        <element label="Date Closed" max_length="40" name="date_closed" type="glide_date_time"/>
+        <element label="Date of KENI Request Submission" max_length="40" name="date_of_keni_request_submission" type="glide_date_time"/>
+        <element label="Date of Last Update" max_length="40" name="date_of_last_update" type="glide_date_time"/>
+        <element label="Date Opened" max_length="40" name="date_opened" type="glide_date_time"/>
+        <element label="Deadline" max_length="40" name="deadline" type="glide_date_time"/>
+        <element label="EOIR Filing Deadline" max_length="40" name="eoir_filing_deadline" type="glide_date_time"/>
+        <element label="EOIR Filing Description" max_length="1000" name="eoir_filing_description" type="string"/>
+        <element label="Existing client Matter" max_length="4000" name="existing_client_matter" reference="x_1268707_pro_bono_pro_bono_opportunity" type="glide_list"/>
+        <element label="Existing Client-New Matter" max_length="32" name="existing_client_new_matter" reference="customer_account" type="reference"/>
+        <element label="Hearing Date" max_length="40" name="hearing_date" type="glide_date_time"/>
+        <element label="Hearing Location" max_length="32" name="hearing_location" reference="x_1268707_pro_bono_foundation_data" reference_qual="type=Country^EQ" reference_qual_condition="type=Country^EQ" type="reference"/>
+        <element choice="1" label="Hearing Type" max_length="40" name="hearing_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Conference" value="conference"/>
+                <element inactive_on_update="false" label="Individual" value="individual"/>
+                <element inactive_on_update="false" label="Master" value="master"/>
+                <element inactive_on_update="false" label="Other" value="other"/>
+            </choice>
+        </element>
+        <element label="ICE Deadline(CK-in)" max_length="40" name="ice_deadline_ck_in" type="glide_date_time"/>
+        <element label="ICE Deadline (CK-in) Description" max_length="1000" name="ice_deadline_ck_in_description" type="string"/>
+        <element label="KENI Request Number" max_length="100" name="keni_request_number" type="string"/>
+        <element label="Language Requirement" max_length="4000" name="language_requirement" reference="x_1268707_pro_bono_foundation_data" reference_qual="type=Language^EQ" reference_qual_condition="type=Language^EQ" type="glide_list"/>
+        <element label="Matter Associated With Opportunity" max_length="40" name="matter_associated_with_opportunity" type="boolean"/>
+        <element label="Matter Description" max_length="1000" name="matter_description" type="string"/>
+        <element label="Matter Name" max_length="100" name="matter_name" type="string"/>
+        <element label="Matter Office" max_length="32" name="matter_office" reference="x_1268707_pro_bono_pro_bono_opportunity" type="reference"/>
+        <element choice="1" label="Matter Status" max_length="40" name="matter_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" value="active"/>
+                <element inactive_on_update="false" label="Inactive" value="inactive"/>
+            </choice>
+        </element>
+        <element label="Matter Type" max_length="4000" name="matter_type" reference="x_1268707_pro_bono_foundation_data" reference_qual="type=matter_type^EQ" reference_qual_condition="type=matter_type^EQ" type="glide_list"/>
+        <element label="No Time Billed(Last 90 days)" max_length="4000" name="no_time_billed_last_90_days" type="glide_list"/>
+        <element label="Opportunity Created" max_length="40" name="opportunity_created" type="glide_date_time"/>
+        <element choice="1" default="draft" label="Status" max_length="40" name="opportunity_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Active Opportunity" sequence="1" value="active_opportunity"/>
+                <element inactive_on_update="false" label="KENI Submitted" sequence="2" value="keni_submitted"/>
+                <element inactive_on_update="false" label="C/M Assigned" sequence="3" value="c_m_assigned"/>
+                <element inactive_on_update="false" label="Kickoff  Email Sent" sequence="4" value="kickoff_email_sent"/>
+                <element inactive_on_update="false" label="Inactive" sequence="5" value="inactive"/>
+                <element inactive_on_update="false" label="Cancelled Opportunities" sequence="6" value="cancelled_opportunities"/>
+            </choice>
+        </element>
+        <element label="Other Deadline" max_length="40" name="other_deadline" type="glide_date_time"/>
+        <element label="Other Deadline Description" max_length="1000" name="other_deadline_description" type="string"/>
+        <element label="Other Referral Source" max_length="100" name="other_referral_source" type="string"/>
+        <element label="Priority Date" max_length="40" name="priority_date" type="glide_date_time"/>
+        <element choice="1" label="Reason for Staffing Request" max_length="40" name="reason_for_staffing_request" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Additional Request" value="additional_request"/>
+                <element inactive_on_update="false" label="New Matter" value="new_matter"/>
+                <element inactive_on_update="false" label="Restaffing" value="restaffing"/>
+            </choice>
+        </element>
+        <element label="Referral Source" max_length="4000" name="referal_source" reference="customer_account" type="glide_list"/>
+        <element label="Representation Type" max_length="4000" name="representation_type" reference="x_1268707_pro_bono_foundation_data" reference_qual="type=representation_type^EQ" reference_qual_condition="type=representation_type^EQ" type="glide_list"/>
+        <element choice="1" label="Responsible Office" max_length="40" name="responsible_office" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Austin" value="austin"/>
+                <element inactive_on_update="false" label="Bay Area" value="bay_area"/>
+                <element inactive_on_update="false" label="Beijing" value="beijing"/>
+                <element inactive_on_update="false" label="Boston" value="boston"/>
+                <element inactive_on_update="false" label="Brussels" value="brussels"/>
+                <element inactive_on_update="false" label="Chicago" value="chicago"/>
+                <element inactive_on_update="false" label="D.C." value="d_c"/>
+                <element inactive_on_update="false" label="Dallas" value="dallas"/>
+                <element inactive_on_update="false" label="Hong Kong" value="hong_kong"/>
+                <element inactive_on_update="false" label="Houston" value="houston"/>
+                <element inactive_on_update="false" label="London" value="london"/>
+                <element inactive_on_update="false" label="Los Angeles" value="los_angeles"/>
+                <element inactive_on_update="false" label="Miami" value="miami"/>
+                <element inactive_on_update="false" label="Munich" value="munich"/>
+                <element inactive_on_update="false" label="New York" value="new_york"/>
+                <element inactive_on_update="false" label="Paris" value="paris"/>
+                <element inactive_on_update="false" label="Riyadh" value="riyadh"/>
+                <element inactive_on_update="false" label="Salt Lake City" value="salt_lake_city"/>
+                <element inactive_on_update="false" label="Shanghai" value="shanghai"/>
+                <element inactive_on_update="false" label="Washington" value="washington"/>
+            </choice>
+        </element>
+        <element label="Responsible Partner" max_length="4000" name="responsible_partner" reference="x_1268707_pro_bono_foundation_data" reference_qual="type=representation_type^EQ" reference_qual_condition="type=representation_type^EQ" type="glide_list"/>
+        <element active="false" attributes="edge_encryption_enabled=true" function_definition="glidefunction:datediff(date_opened,date_closed)" function_field="true" label="Time Duration" max_length="40" name="rpt_time_duration" read_only="true" type="glide_date"/>
+        <element label="Sensitive Notes" max_length="1000" name="sensitive_notes" type="string"/>
+        <element label="Special Matter Tags" max_length="4000" name="special_matter_tags" reference="x_1268707_pro_bono_foundation_data" reference_qual="type=Special Matter Tag^EQ" reference_qual_condition="type=Special Matter Tag^EQ" type="glide_list"/>
+        <element label="USCIS Filing Deadline" max_length="40" name="uscis_filing_deadline" type="glide_date_time"/>
+        <element label="USCIS Filing Description" max_length="1000" name="uscis_filing_description" type="string"/>
+    </element>
+</database>

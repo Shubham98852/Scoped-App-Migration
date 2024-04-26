@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function runFunction(){
+	// alert(Name.value);
+	var getId=GlideModal.prototype.get('x_1268707_pro_bono_submitPage');
+	var id=getId.getPreference("submit_sys_id");
+	var tableN = 'x_1268707_pro_bono_pro_bono_opportunity';
+	var url = '/' + tableN + '.do?sys_id=' + id;
+	var number=gel("Number").value;
+	var type=gel("multipleType").value;
+	
+	// alert("a "+ number);
+	// alert("b "+ requestor.value);
+	
+	// alert("c "+ type);
+	// alert("d "+ practice.value);
+	// alert("e "+ subpractice.value);
+	// alert("f "+ description.value);
+	// alert("date "+DateTime.value)
+	// alert("id "+ id);
+
+	var newDetail=new GlideAjax("staffRequirementSubmit");
+	newDetail.addParam("sysparm_name","submitFunction");
+	newDetail.addParam("number",number);
+	newDetail.addParam("timekeeper_office",requestor.value);
+	newDetail.addParam("timekeeper_type",type);
+	newDetail.addParam("practice_group",practice.value);
+	newDetail.addParam("subpractice_group",subpractice.value);
+	newDetail.addParam("notes",description.value);
+	newDetail.addParam("date",DateTime.value);
+	newDetail.addParam("oppor_reference",id);
+	newDetail.getXML(callback);
+
+	function callback(response){
+		var ans=response.responseXML.documentElement.getAttribute("answer");
+	// 	alert(ans);
+	// 	alert(url);
+
+
+		// var get=GlideModal.prototype.get('x_1268707_pro_bono_submitPage');
+	    // var id=get.getPreference("submit_sys_id");
+	    // var tableN = 'x_1268707_pro_bono_pro_bono_opportunity';
+		// var url = '/' + tableN + '.do?sys_id=' + id;
+
+
+		top.location.href = url;
+	}
+	// var get=GlideModal.prototype.get('x_1268707_pro_bono_submitPage');
+	// var id=get.getPreference("submit_sys_id");
+	// var tableN = 'x_1268707_pro_bono_pro_bono_opportunity';
+    //         var url = '/' + tableN + '.do?sys_id=' + id;
+    //         top.location.href = url;
+	
+	// top.location.href=""
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_1268707_pro_bono_submitPage.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+<style>
+*{
+	box-sizing:border-box;
+	margin:auto;
+} 
+
+.number{
+	padding-left:-20px;
+	width:100%;
+	
+}
+
+.numberInput{
+	/* border-style:solid;
+	border-width:1px;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px; */
+	
+}
+
+.bg{
+	display:flex;
+}
+
+.box1{
+	display:flex;
+	flex-direction:column;
+	width:40%;
+	height:250px;
+}
+
+.box2{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	width:40%;
+	height:250px;
+
+}
+
+.practiceGroup{
+	width:100%;
+}
+
+.marginBox{
+	margin:0px;
+}
+
+.practiceBox{
+	width:100%;
+	/* margin-top:0px;
+	display:flex;
+	align-items:center; */
+	background-color:orange;
+}
+
+.notes{
+	width:90%;
+	margin-top:1%;
+}
+
+.buttons{
+	margin-right:2px;
+}
+
+</style>
+
+<g:ui_form>
+<g:evaluate>
+var types=["Associate","Income Partner","Hardware"]
+</g:evaluate>
+<div class="bg">
+
+<div class="box1">
+<div class="number">
+<!-- <g:ui_input_field label="Name" name="Name"  size="50" /> -->
+Number: <input type="number" id="Number" label="Name" name="Name" class="form-control"/>
+</div>
+
+Timekeeper Office: <g:ui_reference id="requestor" name="requestor" table="cmn_location" />
+					
+<!-- Timekeeper Type :<select multiple="true"  name="multipleType[]" label="type" id="multipleType"> -->
+Timekeeper Type: <select   name="multipleType[]" label="type" id="multipleType" class="form-control">
+			<option value="" >${gs.getMessage('--None--')}</option>
+			<option value="associate">Associate</option>
+			<option value="income_partner">Income Partner</option>
+			<option value="hardware">Hardware</option>
+            </select>
+</div>
+<div class="box2">
+			
+			<div class="practiceGroup">
+			Practice Group:
+			<select id="practice" name="practice" class="form-control" >
+			<option value="">${gs.getMessage('--None--')}</option>
+			<option value="transactional">Transactional</option>
+			<!-- <option value="hardware">Hardware</option> -->
+            </select>	
+			</div>
+			
+
+			<div class="practiceGroup">
+			Subpractice Group: 
+			<select id="subpractice" name="subpractice" class="form-control ">
+			<option value="">${gs.getMessage('--None--')}</option>
+			<!-- <option value="m_&_a">M&A</option> -->
+			<option value="m_and_a">M And A</option>
+			<option value="	ip_litigation">IP Litigation</option>
+			<!-- <option value="hardware">Hardware</option> -->
+			</select>
+			</div>
+
+			<div class="marginBox">
+			Law School Year (yyyy-MM-dd HH:mm:ss):
+			<g:ui_date_time name="DateTime" label="Date" id="dateTimebox"/>
+			</div>
+</div>
+
+
+
+</div>
+<div class="notes">
+Notes : <g:textarea  id="description" name="description" class="form-control"/>
+</div>
+<div class="notes">
+
+<button type="button" onclick="runFunction()" class="buttons">Submit</button>
+<!-- <button type="button" onclick="runFunction()">Hello</button> -->
+<button type="reset">Reset</button>
+
+</div>
+
+</g:ui_form>
+
+</j:jelly>]]></html>
+        <name>submitPage</name>
+        <processing_script><![CDATA[// var gr=new GlideRecord("x_1268707_pro_bono_staffing_requirements");
+// gr.initialize();
+// gr.setValue("number",Name);
+// gr.setValue("timekeeper_office",requestor);
+// gr.setValue("timekeeper_type",type);
+// gr.setValue("practice_group",practice);
+// gr.setValue("subpractice_group",subpractice);
+// gr.setValue("notes",description);
+// gr.insert();]]></processing_script>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-09 04:59:22</sys_created_on>
+        <sys_id>6816dec047610210cffc8f59e16d43f3</sys_id>
+        <sys_mod_count>214</sys_mod_count>
+        <sys_name>submitPage</sys_name>
+        <sys_package display_value="Project Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope>
+        <sys_update_name>sys_ui_page_6816dec047610210cffc8f59e16d43f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-13 10:21:57</sys_updated_on>
+    </sys_ui_page>
+</record_update>

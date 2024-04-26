@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c12bf23c47154210cffc8f59e16d43a0" label="Staffing Requirements" max_length="40" name="x_1268707_pro_bono_staffing_requirements" type="collection">
+        <element label="Law School Year" max_length="40" name="law_school_year" type="glide_date_time"/>
+        <element label="Notes" max_length="1000" name="notes" type="string"/>
+        <element label="Number" max_length="40" name="number" type="string"/>
+        <element label="Opportunity" max_length="32" name="opportunity" reference="x_1268707_pro_bono_pro_bono_opportunity" type="reference"/>
+        <element choice="1" label="Practice Group" max_length="4000" name="practice_group" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Transactional" value="transactional"/>
+            </choice>
+        </element>
+        <element choice="1" label="Subpractice Group" max_length="4000" name="subpractice_group" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="M&amp;A" sequence="0" value="m_and_a"/>
+                <element inactive_on_update="false" label="IP Litigation" sequence="1" value="ip_litigation"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Timekeeper Office" max_length="32" name="timekeeper_office" reference="cmn_location" type="reference"/>
+        <element label="Timekeeper Type" max_length="4000" name="timekeeper_type" type="glide_list"/>
+        <index name="index">
+            <element name="opportunity"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index3">
+            <element name="timekeeper_office"/>
+        </index>
+    </element>
+</database>

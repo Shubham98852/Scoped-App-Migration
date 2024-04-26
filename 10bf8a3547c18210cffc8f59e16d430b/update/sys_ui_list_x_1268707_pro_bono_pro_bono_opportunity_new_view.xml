@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1268707_pro_bono_pro_bono_opportunity" version="2" view="new_view">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_1268707_pro_bono_pro_bono_opportunity" element="NULL" name="x_1268707_pro_bono_pro_bono_opportunity" parent="NULL" relationship="NULL" sys_domain="global" view="a120855f47c58210cffc8f59e16d4314">5326a1d347898210cffc8f59e16d4379</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-25 07:17:08</sys_created_on>
+            <sys_id>9f26a1d347898210cffc8f59e16d437b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-25 07:17:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>a_number</element>
+            <list_id display_value="x_1268707_pro_bono_pro_bono_opportunity" element="NULL" name="x_1268707_pro_bono_pro_bono_opportunity" parent="NULL" relationship="NULL" sys_domain="global" view="a120855f47c58210cffc8f59e16d4314">5326a1d347898210cffc8f59e16d4379</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-25 07:17:08</sys_created_on>
+            <sys_id>1726a1d347898210cffc8f59e16d437c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-25 07:17:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>account</element>
+            <list_id display_value="x_1268707_pro_bono_pro_bono_opportunity" element="NULL" name="x_1268707_pro_bono_pro_bono_opportunity" parent="NULL" relationship="NULL" sys_domain="global" view="a120855f47c58210cffc8f59e16d4314">5326a1d347898210cffc8f59e16d4379</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-25 07:17:08</sys_created_on>
+            <sys_id>9726a1d347898210cffc8f59e16d437c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-25 07:17:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>action_needed</element>
+            <list_id display_value="x_1268707_pro_bono_pro_bono_opportunity" element="NULL" name="x_1268707_pro_bono_pro_bono_opportunity" parent="NULL" relationship="NULL" sys_domain="global" view="a120855f47c58210cffc8f59e16d4314">5326a1d347898210cffc8f59e16d4379</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-25 07:17:08</sys_created_on>
+            <sys_id>1b26a1d347898210cffc8f59e16d437c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-25 07:17:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="x_1268707_pro_bono_pro_bono_opportunity" element="NULL" name="x_1268707_pro_bono_pro_bono_opportunity" parent="NULL" relationship="NULL" sys_domain="global" view="a120855f47c58210cffc8f59e16d4314">5326a1d347898210cffc8f59e16d4379</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-25 07:17:08</sys_created_on>
+            <sys_id>9b26a1d347898210cffc8f59e16d437c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-25 07:17:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active_account_escalation</element>
+            <list_id display_value="x_1268707_pro_bono_pro_bono_opportunity" element="NULL" name="x_1268707_pro_bono_pro_bono_opportunity" parent="NULL" relationship="NULL" sys_domain="global" view="a120855f47c58210cffc8f59e16d4314">5326a1d347898210cffc8f59e16d4379</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-25 07:17:08</sys_created_on>
+            <sys_id>1f26a1d347898210cffc8f59e16d437c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-25 07:17:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active_escalation</element>
+            <list_id display_value="x_1268707_pro_bono_pro_bono_opportunity" element="NULL" name="x_1268707_pro_bono_pro_bono_opportunity" parent="NULL" relationship="NULL" sys_domain="global" view="a120855f47c58210cffc8f59e16d4314">5326a1d347898210cffc8f59e16d4379</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-25 07:17:08</sys_created_on>
+            <sys_id>9f26a1d347898210cffc8f59e16d437c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-25 07:17:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>activity_due</element>
+            <list_id display_value="x_1268707_pro_bono_pro_bono_opportunity" element="NULL" name="x_1268707_pro_bono_pro_bono_opportunity" parent="NULL" relationship="NULL" sys_domain="global" view="a120855f47c58210cffc8f59e16d4314">5326a1d347898210cffc8f59e16d4379</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-25 07:17:08</sys_created_on>
+            <sys_id>1326a1d347898210cffc8f59e16d437d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-25 07:17:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>additional_assignee_list</element>
+            <list_id display_value="x_1268707_pro_bono_pro_bono_opportunity" element="NULL" name="x_1268707_pro_bono_pro_bono_opportunity" parent="NULL" relationship="NULL" sys_domain="global" view="a120855f47c58210cffc8f59e16d4314">5326a1d347898210cffc8f59e16d4379</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-25 07:17:08</sys_created_on>
+            <sys_id>9326a1d347898210cffc8f59e16d437d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-25 07:17:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>agile_story</element>
+            <list_id display_value="x_1268707_pro_bono_pro_bono_opportunity" element="NULL" name="x_1268707_pro_bono_pro_bono_opportunity" parent="NULL" relationship="NULL" sys_domain="global" view="a120855f47c58210cffc8f59e16d4314">5326a1d347898210cffc8f59e16d4379</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-25 07:17:08</sys_created_on>
+            <sys_id>1726a1d347898210cffc8f59e16d437d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-25 07:17:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-25 07:17:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5326a1d347898210cffc8f59e16d4379</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1268707_pro_bono_pro_bono_opportunity</sys_name>
+            <sys_package display_value="Project Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope>
+            <sys_update_name>sys_ui_list_x_1268707_pro_bono_pro_bono_opportunity_new_view</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-25 07:17:08</sys_updated_on>
+            <sys_user/>
+            <view display_value="final_view" name="new_view">a120855f47c58210cffc8f59e16d4314</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

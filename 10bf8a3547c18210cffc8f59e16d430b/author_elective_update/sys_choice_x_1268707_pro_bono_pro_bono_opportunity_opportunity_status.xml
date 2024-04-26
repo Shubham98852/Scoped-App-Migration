@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="opportunity_status" table="x_1268707_pro_bono_pro_bono_opportunity" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>opportunity_status</element>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 04:19:26</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>opportunity_status</sys_name>
+            <sys_package display_value="Project Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope>
+            <sys_update_name>sys_choice_x_1268707_pro_bono_pro_bono_opportunity_opportunity_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 04:19:26</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>opportunity_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Draft</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 04:19:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 07:44:41</sys_updated_on>
+            <value>draft</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>opportunity_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Active Opportunity</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 04:19:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 07:44:48</sys_updated_on>
+            <value>active_opportunity</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>opportunity_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>KENI Submitted</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 04:20:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 07:45:02</sys_updated_on>
+            <value>keni_submitted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>opportunity_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>C/M Assigned</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 04:20:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 07:45:45</sys_updated_on>
+            <value>c_m_assigned</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>opportunity_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kickoff  Email Sent</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 04:21:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 07:46:02</sys_updated_on>
+            <value>kickoff_email_sent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>opportunity_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inactive</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 07:44:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 07:46:28</sys_updated_on>
+            <value>inactive</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>opportunity_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelled Opportunities</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 04:22:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 07:46:36</sys_updated_on>
+            <value>cancelled_opportunities</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

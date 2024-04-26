@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1268707_pro_bono.AddRecordToStaffRequirementRelatedList</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>AddRecordToStaffRequirementRelatedList</name>
+        <script><![CDATA[var AddRecordToStaffRequirementRelatedList = Class.create();
+AddRecordToStaffRequirementRelatedList.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	addRecordFunction:function(){
+
+		// var tempObject={"staff_name":details.getDisplayValue("x_1268707_pro_bono_staffing_requirements"),
+		// 	"oppo_record":details.getDisplayValue("x_1268707_pro_bono_pro_bono_opportunity")};
+
+
+		// To check if selected records are present in related list
+		function checkRepetition(value){
+			var m2mTable=new GlideRecord("x_1268707_pro_bono_m2m_x_1268707_pr_x_1268707_pr");
+			m2mTable.addQuery("x_1268707_pro_bono_staffing_requirements",value.name);
+			m2mTable.addQuery("x_1268707_pro_bono_pro_bono_opportunity",value.oppo_number);
+			m2mTable.query();
+			if(m2mTable.next()){
+				return false;
+			}
+			return true;
+			
+		}
+
+
+		var sys_ids = this.getParameter("sys_ids");//Getting the comma separated sys_id of selected records
+        var recordArray = sys_ids.split(",");//inserting the sys_ids into an array
+		var oppo_id = gs.getProperty("x_1268707_pro_bono.staffRequirementOpportunitySysID");//getting the sys_id of current record of opportunity table
+
+	
+		for (var i = 0; i < recordArray.length; i++) {
+			var details = new GlideRecord("x_1268707_pro_bono_staffing_requirements");
+			details.get(recordArray[i]);
+			var tempObject={"name":recordArray[i],"oppo_number":oppo_id};//making an object for repetition checking in related list
+			
+			var RepetitionThereOrNot=checkRepetition(tempObject);
+
+			if(RepetitionThereOrNot==true){
+			//Inserting the checked records to the related list
+			var m2mRelTable=new GlideRecord("x_1268707_pro_bono_m2m_x_1268707_pr_x_1268707_pr");
+			m2mRelTable.initialize();
+			m2mRelTable.setValue("x_1268707_pro_bono_staffing_requirements",recordArray[i]);
+			m2mRelTable.setValue("x_1268707_pro_bono_pro_bono_opportunity",oppo_id);
+			m2mRelTable.insert();
+			}
+		
+		}
+
+		// return JSON.stringify({"id":oppo_id,"duplicate_present_or_not":RepetitionThereOrNot});
+		return oppo_id;
+
+
+	},
+
+    type: 'AddRecordToStaffRequirementRelatedList'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-30 10:20:42</sys_created_on>
+        <sys_id>1cd8773c47194210cffc8f59e16d4359</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>AddRecordToStaffRequirementRelatedList</sys_name>
+        <sys_package display_value="Project Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Project Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope>
+        <sys_update_name>sys_script_include_1cd8773c47194210cffc8f59e16d4359</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-01 04:11:00</sys_updated_on>
+    </sys_script_include>
+</record_update>

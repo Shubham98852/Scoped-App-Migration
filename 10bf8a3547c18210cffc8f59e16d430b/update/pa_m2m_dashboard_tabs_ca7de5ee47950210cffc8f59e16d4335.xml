@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="Opportunity Admin Dashboard">e12d61ee47950210cffc8f59e16d43fb</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 10:09:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ca7de5ee47950210cffc8f59e16d4335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e12d61ee47950210cffc8f59e16d43fb</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Project Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_ca7de5ee47950210cffc8f59e16d4335</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 10:09:16</sys_updated_on>
+        <tab display_value="Opportunity Admin Da - New Tab">8a7de5ee47950210cffc8f59e16d4332</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

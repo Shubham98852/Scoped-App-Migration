@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="41fa99b5478d4210cffc8f59e16d43ac" label="Related Party" max_length="40" name="sn_customerservice_related_party" type="collection">
+        <element label="Accepted Opportunity" max_length="40" name="x_1268707_pro_bono_accepted_opportunity" type="boolean"/>
+        <element label="Notes" max_length="1000" name="x_1268707_pro_bono_notes" type="journal"/>
+        <element label="Opportunity" max_length="32" name="x_1268707_pro_bono_opportunity" reference="x_1268707_pro_bono_pro_bono_opportunity" type="reference"/>
+        <element choice="1" label="Sub Practice" max_length="40" name="x_1268707_pro_bono_sub_practice" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="IP Litigation" value="i_p_litigation"/>
+                <element inactive_on_update="false" label="M&amp;A" value="m_&amp;_a"/>
+            </choice>
+        </element>
+        <element label="Timekeeper" max_length="32" name="x_1268707_pro_bono_timekeeper" reference="x_1268707_pro_bono_timekeeper_register" type="reference"/>
+        <element label="Timekeeper Email" max_length="50" name="x_1268707_pro_bono_timekeeper_email" type="string"/>
+        <element label="Timekeeper Employee ID" max_length="50" name="x_1268707_pro_bono_timekeeper_employee_id" type="string"/>
+        <element label="Timekeeper Name" max_length="30" name="x_1268707_pro_bono_timekeeper_name" type="string"/>
+        <index name="index">
+            <element name="x_1268707_pro_bono_opportunity"/>
+        </index>
+        <index name="index2">
+            <element name="x_1268707_pro_bono_timekeeper"/>
+        </index>
+    </element>
+</database>

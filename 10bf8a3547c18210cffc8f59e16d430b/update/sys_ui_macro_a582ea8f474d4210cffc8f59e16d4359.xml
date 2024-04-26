@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>new details</name>
+        <scoped_name>x_1268707_pro_bono_new details</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-24 17:03:08</sys_created_on>
+        <sys_id>a582ea8f474d4210cffc8f59e16d4359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>new details</sys_name>
+        <sys_package display_value="Project Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope>
+        <sys_update_name>sys_ui_macro_a582ea8f474d4210cffc8f59e16d4359</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-24 17:03:08</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<g:evaluate var="jvar_guid" expression="gs.generateGUID(this);" />
+<j:set var="jvar_n" value="show_incidents_${jvar_guid}:${ref}"/>
+<g:reference_decoration id="${jvar_n}" field="${ref}" 
+  onclick="showRelatedList('${ref}'); "
+  title="${gs.getMessage('Show related incidents')}" image="images/icons/tasks.gifx" icon="icon-tree-right"/>
+
+<script>
+// show related list 
+// todo: should be part of the PopupWindow class
+// todo: needs new stack name
+function showRelatedList(reference) {
+	var s = reference.split('.');
+	// Get the field name which is always last
+  	var referenceField = s[s.length - 1];
+  	var v = g_form.getValue(reference);
+  	var w = new GlideDialogWindow('show_list');
+  	w.setTitle('Related incidents');
+  	w.setPreference('table', 'incident_list');
+  	w.setPreference('sysparm_view', 'default');
+  	w.setPreference('sysparm_query', referenceField + '=' + v);
+  	w.render();
+}
+
+</script>
+
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="18accec247c1c210cffc8f59e16d4354" label="Timekeeper Register" max_length="40" name="x_1268707_pro_bono_timekeeper_register" type="collection">
+        <element label="Awards/Recognition" max_length="4000" name="awards_recognition" type="glide_list"/>
+        <element label="Bar Admission" max_length="100" name="bar_admission" type="string"/>
+        <element label="Bar Admission Number" max_length="100" name="bar_admission_number" type="string"/>
+        <element choice="1" label="Language Capability" max_length="40" name="language_capability" type="choice">
+            <choice/>
+        </element>
+        <element label="Law School Year" max_length="40" name="law_school_year" type="glide_date_time"/>
+        <element label="Notes" max_length="1000" name="notes" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Staffing Number" max_length="40" name="number" type="string"/>
+        <element label="Sensitive Notes Field" max_length="1000" name="sensitive_notes_field" type="string"/>
+        <element label="Special Timekeeper Tags" max_length="4000" name="special_timekeeper_tags" type="glide_list"/>
+        <element label="Timekeeper End Date" max_length="40" name="timekeeper_end_date" type="glide_date_time"/>
+        <element label="Timekeeper Office" max_length="32" name="timekeeper_office" reference="x_1268707_pro_bono_foundation_data" reference_qual="type=^EQ" reference_qual_condition="type=^EQ" type="reference"/>
+        <element choice="1" label="Timekeeper Practice Group" max_length="40" name="timekeeper_practice_group" type="choice">
+            <choice/>
+        </element>
+        <element label="Timekeeper Start Date" max_length="40" name="timekeeper_start_date" type="glide_date_time"/>
+        <element choice="1" label="Timekeeper Status" max_length="40" name="timekeeper_status" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Timekeeper Sub Practice Group" max_length="40" name="timekeeper_sub_practice_group" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="IP Litigation" value="i_p_litigation"/>
+                <element inactive_on_update="false" label="M&amp;A" value="m_&amp;_a"/>
+            </choice>
+        </element>
+        <element label="Timekeeper Type" max_length="4000" name="timekeeper_type" type="glide_list"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" reference_qual="javascript:new GetDetails().recordFunction()" type="reference" use_reference_qualifier="advanced"/>
+        <element label="YTD Time Billed" max_length="40" name="ytd_time_billed" type="glide_date_time"/>
+        <index name="index">
+            <element name="timekeeper_office"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

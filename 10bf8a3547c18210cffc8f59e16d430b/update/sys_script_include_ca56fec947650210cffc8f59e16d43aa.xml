@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1268707_pro_bono.staffRequirementSubmit</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>staffRequirementSubmit</name>
+        <script><![CDATA[var staffRequirementSubmit = Class.create();
+staffRequirementSubmit.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    submitFunction: function() {
+
+        // var getDetails=this.getParameter("")
+
+        var number = this.getParameter("number").toString();
+        var timekeeper_office = this.getParameter("timekeeper_office");
+        var timekeeper_type = this.getParameter("timekeeper_type");
+        var practice_group = this.getParameter("practice_group");
+        var subpractice_group = this.getParameter("subpractice_group");
+        var notes = this.getParameter("notes");
+		var date=this.getParameter("date");
+		var id=this.getParameter("oppor_reference");
+
+        var gr = new GlideRecord("x_1268707_pro_bono_staffing_requirements");
+        gr.initialize();
+        gr.setValue("number", number);
+        gr.setValue("timekeeper_office", timekeeper_office);
+        gr.setValue("timekeeper_type", timekeeper_type);
+        gr.setValue("practice_group", practice_group);
+        gr.setValue("subpractice_group", subpractice_group);
+        gr.setValue("notes", notes);
+		gr.setValue("law_school_year",date);
+		gr.setValue("opportunity",id);
+        gr.insert();
+
+        return "Record Inserted";
+    },
+    type: 'staffRequirementSubmit'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-12 10:08:01</sys_created_on>
+        <sys_id>ca56fec947650210cffc8f59e16d43aa</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>staffRequirementSubmit</sys_name>
+        <sys_package display_value="Project Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Project Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope>
+        <sys_update_name>sys_script_include_ca56fec947650210cffc8f59e16d43aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-13 10:18:29</sys_updated_on>
+    </sys_script_include>
+</record_update>

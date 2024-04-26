@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>x_1268707_pro_bono_pro_bono_opportunity</from_table>
+        <m2m_from_field>x_1268707_pro_bono_pro_bono_opportunity</m2m_from_field>
+        <m2m_from_label>Timekeeper Registers</m2m_from_label>
+        <m2m_table>x_1268707_pro_bono_x_1268707_bono_m2m_x_1268707_pr_x_1268707_pr</m2m_table>
+        <m2m_to_field>x_1268707_pro_bono_timekeeper_register</m2m_to_field>
+        <m2m_to_label>Pro Bono Opportunities</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 06:57:27</sys_created_on>
+        <sys_id>3551456e47d10210cffc8f59e16d4309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1268707_pro_bono_x_1268707_bono_m2m_x_1268707_pr_x_1268707_pr</sys_name>
+        <sys_package display_value="Project Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope>
+        <sys_update_name>sys_m2m_3551456e47d10210cffc8f59e16d4309</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 06:57:27</sys_updated_on>
+        <to_table>x_1268707_pro_bono_timekeeper_register</to_table>
+    </sys_m2m>
+</record_update>

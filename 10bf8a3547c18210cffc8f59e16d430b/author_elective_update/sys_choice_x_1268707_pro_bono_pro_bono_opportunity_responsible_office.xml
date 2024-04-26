@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="responsible_office" table="x_1268707_pro_bono_pro_bono_opportunity" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>responsible_office</element>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 10:40:39</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>responsible_office</sys_name>
+            <sys_package display_value="Project Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope>
+            <sys_update_name>sys_choice_x_1268707_pro_bono_pro_bono_opportunity_responsible_office</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 10:40:39</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>responsible_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Austin</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 10:40:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 10:40:44</sys_updated_on>
+            <value>austin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>responsible_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bay Area</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 10:40:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 10:40:58</sys_updated_on>
+            <value>bay_area</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>responsible_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Beijing</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 10:41:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 10:41:14</sys_updated_on>
+            <value>beijing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>responsible_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Boston</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 10:41:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 10:41:27</sys_updated_on>
+            <value>boston</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>responsible_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Brussels</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 10:41:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 10:41:42</sys_updated_on>
+            <value>brussels</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>responsible_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Chicago</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 10:41:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 10:41:59</sys_updated_on>
+            <value>chicago</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>responsible_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dallas</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 10:42:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 10:42:16</sys_updated_on>
+            <value>dallas</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>responsible_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>D.C.</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 10:50:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 10:50:18</sys_updated_on>
+            <value>d_c</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>responsible_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hong Kong</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 10:44:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 10:44:58</sys_updated_on>
+            <value>hong_kong</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>responsible_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Houston</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 10:45:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 10:45:13</sys_updated_on>
+            <value>houston</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>responsible_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>London</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 10:45:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 10:45:29</sys_updated_on>
+            <value>london</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>responsible_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Los Angeles</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 10:45:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 10:45:49</sys_updated_on>
+            <value>los_angeles</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>responsible_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Miami</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 10:45:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 10:46:01</sys_updated_on>
+            <value>miami</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>responsible_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Munich</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 10:46:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 10:46:20</sys_updated_on>
+            <value>munich</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>responsible_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New York</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 10:46:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 10:46:38</sys_updated_on>
+            <value>new_york</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>responsible_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Paris</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 10:46:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 10:46:50</sys_updated_on>
+            <value>paris</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>responsible_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Riyadh</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 10:47:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 10:47:05</sys_updated_on>
+            <value>riyadh</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>responsible_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Salt Lake City</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 10:47:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 10:47:49</sys_updated_on>
+            <value>salt_lake_city</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>responsible_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Shanghai</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 10:49:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 10:49:37</sys_updated_on>
+            <value>shanghai</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>responsible_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Washington</label>
+            <language>en</language>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 10:49:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 10:49:54</sys_updated_on>
+            <value>washington</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

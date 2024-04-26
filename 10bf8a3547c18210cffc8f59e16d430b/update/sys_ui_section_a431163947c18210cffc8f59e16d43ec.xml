@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Related Records" section_id="a431163947c18210cffc8f59e16d43ec" sys_domain="global" table="x_1268707_pro_bono_pro_bono_opportunity" version="3" view="case">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>incident</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-20 18:34:13</sys_created_on>
+            <sys_id>2031163947c18210cffc8f59e16d43ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_1268707_pro_bono_pro_bono_opportunity" sys_domain="global" view="419b997d478d4210cffc8f59e16d4320">a431163947c18210cffc8f59e16d43ec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-20 18:34:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>problem</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-20 18:34:13</sys_created_on>
+            <sys_id>2831163947c18210cffc8f59e16d43ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_1268707_pro_bono_pro_bono_opportunity" sys_domain="global" view="419b997d478d4210cffc8f59e16d4320">a431163947c18210cffc8f59e16d43ec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-20 18:34:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>post_case_review</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-20 18:34:13</sys_created_on>
+            <sys_id>2c31163947c18210cffc8f59e16d43ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_1268707_pro_bono_pro_bono_opportunity" sys_domain="global" view="419b997d478d4210cffc8f59e16d4320">a431163947c18210cffc8f59e16d43ec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-20 18:34:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-20 18:34:13</sys_created_on>
+            <sys_id>2c31163947c18210cffc8f59e16d43ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_1268707_pro_bono_pro_bono_opportunity" sys_domain="global" view="419b997d478d4210cffc8f59e16d4320">a431163947c18210cffc8f59e16d43ec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-20 18:34:13</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>change</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-20 18:34:13</sys_created_on>
+            <sys_id>2431163947c18210cffc8f59e16d43ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_1268707_pro_bono_pro_bono_opportunity" sys_domain="global" view="419b997d478d4210cffc8f59e16d4320">a431163947c18210cffc8f59e16d43ec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-20 18:34:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>caused_by</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-20 18:34:13</sys_created_on>
+            <sys_id>2031163947c18210cffc8f59e16d43ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_1268707_pro_bono_pro_bono_opportunity" sys_domain="global" view="419b997d478d4210cffc8f59e16d4320">a431163947c18210cffc8f59e16d43ec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-20 18:34:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>case_action_summary</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-20 18:34:13</sys_created_on>
+            <sys_id>2831163947c18210cffc8f59e16d43ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_1268707_pro_bono_pro_bono_opportunity" sys_domain="global" view="419b997d478d4210cffc8f59e16d4320">a431163947c18210cffc8f59e16d43ec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-20 18:34:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-20 18:34:13</sys_created_on>
+            <sys_id>2431163947c18210cffc8f59e16d43ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_1268707_pro_bono_pro_bono_opportunity" sys_domain="global" view="419b997d478d4210cffc8f59e16d4320">a431163947c18210cffc8f59e16d43ec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-20 18:34:13</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Related Records</caption>
+            <header>false</header>
+            <name>x_1268707_pro_bono_pro_bono_opportunity</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-20 18:34:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a431163947c18210cffc8f59e16d43ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1268707_pro_bono_pro_bono_opportunity</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Project Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope>
+            <sys_update_name>sys_ui_section_a431163947c18210cffc8f59e16d43ec</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-20 18:34:13</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Case" name="case">419b997d478d4210cffc8f59e16d4320</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

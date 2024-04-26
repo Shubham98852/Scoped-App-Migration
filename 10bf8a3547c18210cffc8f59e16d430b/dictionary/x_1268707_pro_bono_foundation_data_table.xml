@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bf5fd9c24701c210cffc8f59e16d4303" extends="sys_import_set_row" label="Foundation type Data" max_length="40" name="x_1268707_pro_bono_foundation_data_table" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type" label="Type" max_length="40" name="u_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Value" label="Value" max_length="113" name="u_value" type="string"/>
+    </element>
+</database>

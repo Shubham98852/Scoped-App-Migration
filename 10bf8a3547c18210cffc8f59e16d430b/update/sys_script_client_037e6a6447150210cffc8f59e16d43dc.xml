@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>If matter type is immigration show the immigration tab along with its field mandetory.</description>
+        <field>matter_type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Immigration</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+
+	
+    function showOrHideFunction(value) {
+        var array = ["action_needed", "date_of_last_update", "date_of_last_update",
+            "eoir_filing_deadline", "hearing_location", "hearing_type", "ice_deadline_ck_in", "other_deadline",
+            "priority_date", "responsible_office", "state","hearing_date", "uscis_filing_deadline"
+        ];
+
+        for (var i = 0; i < array.length; i++) {
+			if(!value){
+				g_form.clearValue(array[i]);
+			}
+            g_form.setMandatory(array[i], value);
+        }
+        g_form.setSectionDisplay('immigration', value);
+
+    }
+    
+
+    //Type appropriate comment here, and begin script below
+
+function functionAjax(){
+    var matterValues = g_form.getValue("matter_type");
+    var probonoGlide = new GlideAjax("ProBonov2");
+    probonoGlide.addParam("sysparm_name", "tempFunction");
+    probonoGlide.addParam("matterArrays", matterValues);
+    probonoGlide.getXML(callback);
+
+    function callback(response) {
+        var finalAnswer = response.responseXML.documentElement.getAttribute("answer");
+		var showOrHideImmigration ;
+        if (finalAnswer == "true") {
+            showOrHideImmigration = true;
+            showOrHideFunction(showOrHideImmigration);
+        } else {
+            showOrHideImmigration = false;
+            showOrHideFunction(showOrHideImmigration);
+
+        }
+    }
+}
+
+functionAjax();
+
+  if (isLoading || newValue === '') {
+		functionAjax();
+        return;
+    }
+	
+  
+
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-29 09:51:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>037e6a6447150210cffc8f59e16d43dc</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Immigration</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Project Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope>
+        <sys_update_name>sys_script_client_037e6a6447150210cffc8f59e16d43dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 04:29:27</sys_updated_on>
+        <table>x_1268707_pro_bono_pro_bono_opportunity</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

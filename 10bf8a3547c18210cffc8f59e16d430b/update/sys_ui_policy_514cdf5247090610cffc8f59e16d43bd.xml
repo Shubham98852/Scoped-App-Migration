@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_1268707_pro_bono_pro_bono_opportunity">matter_typeLIKEc200e5064701c210cffc8f59e16d433f^ORmatter_typeLIKE8a00e5064701c210cffc8f59e16d433f^ORmatter_typeLIKE4200e5064701c210cffc8f59e16d4340^ORmatter_typeLIKE0a00e5064701c210cffc8f59e16d4340^ORmatter_typeLIKEce00e5064701c210cffc8f59e16d4340^ORmatter_typeLIKE8600e5064701c210cffc8f59e16d4341^ORmatter_typeLIKE4e00e5064701c210cffc8f59e16d4341^ORmatter_typeLIKE0600e5064701c210cffc8f59e16d4342^ORmatter_typeLIKEca00e5064701c210cffc8f59e16d4342^ORmatter_typeLIKE8200e5064701c210cffc8f59e16d4343^ORmatter_typeLIKE4a00e5064701c210cffc8f59e16d4343^ORmatter_typeLIKE0200e5064701c210cffc8f59e16d4344^ORmatter_typeLIKEc600e5064701c210cffc8f59e16d4344^ORmatter_typeLIKE8e00e5064701c210cffc8f59e16d4344^ORmatter_typeLIKE4600e5064701c210cffc8f59e16d4345^ORmatter_typeLIKE0e00e5064701c210cffc8f59e16d4345^ORmatter_typeLIKEc200e5064701c210cffc8f59e16d4346^ORmatter_typeLIKE8a00e5064701c210cffc8f59e16d4346^ORmatter_typeLIKE4200e5064701c210cffc8f59e16d4347^ORmatter_typeLIKEce00e5064701c210cffc8f59e16d4347^ORmatter_typeLIKE0a00e5064701c210cffc8f59e16d4347^ORmatter_typeLIKEaa00e5064701c210cffc8f59e16d43ac^ORmatter_typeLIKE6200e5064701c210cffc8f59e16d43ad^EQ<item endquery="false" field="matter_type" goto="false" newquery="false" operator="LIKE" or="false" value="c200e5064701c210cffc8f59e16d433f"/>
+            <item endquery="false" field="matter_type" goto="false" newquery="false" operator="LIKE" or="true" value="8a00e5064701c210cffc8f59e16d433f"/>
+            <item endquery="false" field="matter_type" goto="false" newquery="false" operator="LIKE" or="true" value="4200e5064701c210cffc8f59e16d4340"/>
+            <item endquery="false" field="matter_type" goto="false" newquery="false" operator="LIKE" or="true" value="0a00e5064701c210cffc8f59e16d4340"/>
+            <item endquery="false" field="matter_type" goto="false" newquery="false" operator="LIKE" or="true" value="ce00e5064701c210cffc8f59e16d4340"/>
+            <item endquery="false" field="matter_type" goto="false" newquery="false" operator="LIKE" or="true" value="8600e5064701c210cffc8f59e16d4341"/>
+            <item endquery="false" field="matter_type" goto="false" newquery="false" operator="LIKE" or="true" value="4e00e5064701c210cffc8f59e16d4341"/>
+            <item endquery="false" field="matter_type" goto="false" newquery="false" operator="LIKE" or="true" value="0600e5064701c210cffc8f59e16d4342"/>
+            <item endquery="false" field="matter_type" goto="false" newquery="false" operator="LIKE" or="true" value="ca00e5064701c210cffc8f59e16d4342"/>
+            <item endquery="false" field="matter_type" goto="false" newquery="false" operator="LIKE" or="true" value="8200e5064701c210cffc8f59e16d4343"/>
+            <item endquery="false" field="matter_type" goto="false" newquery="false" operator="LIKE" or="true" value="4a00e5064701c210cffc8f59e16d4343"/>
+            <item endquery="false" field="matter_type" goto="false" newquery="false" operator="LIKE" or="true" value="0200e5064701c210cffc8f59e16d4344"/>
+            <item endquery="false" field="matter_type" goto="false" newquery="false" operator="LIKE" or="true" value="c600e5064701c210cffc8f59e16d4344"/>
+            <item endquery="false" field="matter_type" goto="false" newquery="false" operator="LIKE" or="true" value="8e00e5064701c210cffc8f59e16d4344"/>
+            <item endquery="false" field="matter_type" goto="false" newquery="false" operator="LIKE" or="true" value="4600e5064701c210cffc8f59e16d4345"/>
+            <item endquery="false" field="matter_type" goto="false" newquery="false" operator="LIKE" or="true" value="0e00e5064701c210cffc8f59e16d4345"/>
+            <item endquery="false" field="matter_type" goto="false" newquery="false" operator="LIKE" or="true" value="c200e5064701c210cffc8f59e16d4346"/>
+            <item endquery="false" field="matter_type" goto="false" newquery="false" operator="LIKE" or="true" value="8a00e5064701c210cffc8f59e16d4346"/>
+            <item endquery="false" field="matter_type" goto="false" newquery="false" operator="LIKE" or="true" value="4200e5064701c210cffc8f59e16d4347"/>
+            <item endquery="false" field="matter_type" goto="false" newquery="false" operator="LIKE" or="true" value="ce00e5064701c210cffc8f59e16d4347"/>
+            <item endquery="false" field="matter_type" goto="false" newquery="false" operator="LIKE" or="true" value="0a00e5064701c210cffc8f59e16d4347"/>
+            <item endquery="false" field="matter_type" goto="false" newquery="false" operator="LIKE" or="true" value="aa00e5064701c210cffc8f59e16d43ac"/>
+            <item endquery="false" field="matter_type" goto="false" newquery="false" operator="LIKE" or="true" value="6200e5064701c210cffc8f59e16d43ad"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	g_form.setSectionDisplay('immigration', false);
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	g_form.setSectionDisplay('immigration', true);
+
+	// var matterValues= g_form.getValue("matter_type");
+	// var probonoGlide=new GlideAjax("ProBonov2");
+	// probonoGlide.addParam("sysparm_name","tempFunction");
+	// probonoGlide.addParam("matterArrays",matterValues);
+	// probonoGlide.getXML(callback);
+	// function callback(response){
+	// 	var finalAnswer=response.responseXML.documentElement.getAttribute("answer");
+	// 	if(finalAnswer=="true"){
+	// 			g_form.setSectionDisplay('immigration', false);
+	// 			g_form.setMandatory("action_needed",true);
+	// 			g_form.setMandatory("date_of_last_update",true);
+	// 			g_form.setMandatory("eoir_filing_deadline",true);
+	// 			g_form.setMandatory("hearing_location",true);
+	// 			g_form.setMandatory("hearing_type",true);
+	// 			g_form.setMandatory("ice_deadline_ck_in",true);
+	// 			g_form.setMandatory("other_deadline",true);
+	// 			g_form.setMandatory("priority_date",true);
+	// 			g_form.setMandatory("responsible_office",true);
+	// 			g_form.setMandatory("state",true);
+	// 			g_form.setMandatory("uscis_filing_deadline",true);
+				
+	// 	}
+	// 	else{
+	// 		g_form.setMandatory("action_needed",false);
+	// 			g_form.setMandatory("date_of_last_update",false);
+	// 			g_form.setMandatory("eoir_filing_deadline",false);
+	// 			g_form.setMandatory("hearing_location",false);
+	// 			g_form.setMandatory("hearing_type",false);
+	// 			g_form.setMandatory("ice_deadline_ck_in",false);
+	// 			g_form.setMandatory("other_deadline",false);
+	// 			g_form.setMandatory("priority_date",false);
+	// 			g_form.setMandatory("responsible_office",false);
+	// 			g_form.setMandatory("state",false);
+	// 			g_form.setMandatory("uscis_filing_deadline",false);
+	// 		g_form.setSectionDisplay('immigration', false);
+	// 	}
+	// 	alert(finalAnswer);
+	// }
+	
+
+	
+	
+	
+
+	
+}]]></script_true>
+        <set_values/>
+        <short_description>To make fields visible and mandetory on matter type being Immigration</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 13:27:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>514cdf5247090610cffc8f59e16d43bd</sys_id>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name>To make fields visible and mandetory on matter type being Immigration</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Project Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope>
+        <sys_update_name>sys_ui_policy_514cdf5247090610cffc8f59e16d43bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 08:55:48</sys_updated_on>
+        <table>x_1268707_pro_bono_pro_bono_opportunity</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

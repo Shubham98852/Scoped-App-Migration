@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-02 02:26:25</sys_created_on>
+        <sys_id>aeefad7947d14210cffc8f59e16d432f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1268707_pro_bono.probono_admin</sys_name>
+        <sys_package display_value="Pro Bono Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope>
+        <sys_security_acl display_value="">a0ef69f947d14210cffc8f59e16d439f</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_aeefad7947d14210cffc8f59e16d432f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-02 02:26:25</sys_updated_on>
+        <sys_user_role display_value="x_1268707_pro_bono.probono_admin" name="x_1268707_pro_bono.probono_admin">b16f1eed47950210cffc8f59e16d436a</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project Application">10bf8a3547c18210cffc8f59e16d430b</application>
+        <file_path/>
+        <instance_id>bc6d19f31b6ef5d49377eb9b2d4bcbe1</instance_id>
+        <instance_name>dev222287</instance_name>
+        <name>sys_security_acl_role_aeefad7947d14210cffc8f59e16d432f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-02 02:26:25</sys_created_on><sys_id>aeefad7947d14210cffc8f59e16d432f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_1268707_pro_bono.probono_admin</sys_name><sys_package display_value="Pro Bono Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package><sys_policy/><sys_scope display_value="Pro Bono Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope><sys_security_acl display_value="">a0ef69f947d14210cffc8f59e16d439f</sys_security_acl><sys_update_name>sys_security_acl_role_aeefad7947d14210cffc8f59e16d432f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-02 02:26:25</sys_updated_on><sys_user_role display_value="x_1268707_pro_bono.probono_admin" name="x_1268707_pro_bono.probono_admin">b16f1eed47950210cffc8f59e16d436a</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1073055685</payload_hash>
+        <record_name>.x_1268707_pro_bono.probono_admin</record_name>
+        <reverted_from/>
+        <source>3aef1eed47950210cffc8f59e16d436e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-02 02:26:25</sys_created_on>
+        <sys_id>ea50f13d47d14210cffc8f59e16d438e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e9ca111b10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-02 02:26:25</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>ee50f13ddbd14210cb3ae6e9258cb98d</update_guid>
+        <update_guid_history>ee50f13ddbd14210cb3ae6e9258cb98d:-1073055685</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_1268707_pro_bono.probono_admin">42b7aa3547d54210cffc8f59e16d43c8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-02 06:28:19</sys_created_on>
+        <sys_db_object display_value="sys_security_acl_role" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>7d56ee456c7c40209e1b41044c859900</sys_id>
+        <sys_metadata>aeefad7947d14210cffc8f59e16d432f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1268707_pro_bono.probono_admin</sys_name>
+        <sys_package display_value="Project Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package>
+        <sys_parent display_value="x_1268707_pro_bono_pro_bono_opportunity.*">a0ef69f947d14210cffc8f59e16d439f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Project Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope>
+        <sys_scope_delete display_value="">0e7f6d691dc64db9822e0784e9c58da1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_aeefad7947d14210cffc8f59e16d432f</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_aeefad7947d14210cffc8f59e16d432f">ea50f13d47d14210cffc8f59e16d438e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-02 06:28:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

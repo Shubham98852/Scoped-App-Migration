@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view">
+    <sys_ui_action_view action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 04:38:19</sys_created_on>
+        <sys_id>bcd141df47c58210cffc8f59e16d433b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add Record.Pro Bono Staff v4</sys_name>
+        <sys_package display_value="Project Application" source="x_1268707_pro_bono">10bf8a3547c18210cffc8f59e16d430b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Application">10bf8a3547c18210cffc8f59e16d430b</sys_scope>
+        <sys_ui_action display_value="Add Record">6d1532c747cd4210cffc8f59e16d431d</sys_ui_action>
+        <sys_ui_view display_value="Pro Bono Staff v4" name="pro_bono_staff_v4">e401c11f47c58210cffc8f59e16d43b2</sys_ui_view>
+        <sys_update_name>sys_ui_action_view_bcd141df47c58210cffc8f59e16d433b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 04:38:19</sys_updated_on>
+        <visibility>include</visibility>
+    </sys_ui_action_view>
+</record_update>
